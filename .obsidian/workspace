@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "fce93400544e6951",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7ce1c36951ba3ce",
+        "type": "leaf",
+        "dimension": 57.40120562625586,
+        "state": {
+          "type": "pdf",
+          "state": {
+            "file": "Documents/att-ctrl-quat.pdf"
+          }
+        }
+      },
+      {
+        "id": "24fbac58b756676e",
+        "type": "leaf",
+        "dimension": 42.598794373744134,
+        "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9bbccc787309f265",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ab47a1f18ecbf24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0620d66837560c29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5121b583f5706582",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aa7d508fe0b3e087",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cc6535d2f5fee6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a021f580ca032ab9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Documents/att-ctrl-quat.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e7ce1c36951ba3ce",
+  "lastOpenFiles": [
+    "Documents/att-ctrl-quat.pdf",
+    "Documents/MPC-PX4 Implementation.pdf",
+    "Modules/Attitude & Rate Control.md",
+    "NuttX OS.md",
+    "Modules/UORB.md",
+    "Modules/Mavlink.md",
+    "Controller Hardware.md",
+    "Modules/Simulator.md",
+    "Modules/Mixer.md",
+    "Modules/Esimator.md"
+  ]
+}

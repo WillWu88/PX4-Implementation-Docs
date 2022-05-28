@@ -19,11 +19,15 @@ The flight stack's main function is to control the aircraft and estimate the sta
 
 ### Runtime Enviornment
 - Task, vs
-	- Work Queue Task
+- Work Queue Task
 
 May need to figure this out later when implementing a controller
 
 ![Flight Stack Graph](https://docs.px4.io/master/assets/img/PX4_High-Level_Flight-Stack.18829d0a.svg)
+
+Overall Controller Architecture
+
+![Controller Architecture](https://docs.px4.io/master/assets/img/mc_control_arch.21116ef0.jpg)
 
 ## 2. Middleware
 - [[Simulator]]
@@ -32,6 +36,9 @@ May need to figure this out later when implementing a controller
 ## 3. Drivers
 
 ## 4. Dev
-
+### Programming Conventions
+- Gains are all of type *float*
+- Unit Quaternion
+- 
 
 #main

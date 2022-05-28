@@ -22,5 +22,40 @@ and much more
 
 ## 2. Multi-copter Attitude Controller Implementation
 
+For general control structure, refer to [[NuttX OS]]
+
+#### I. Angle Controller
+Angle Controller Diagram:
+![P Controller](https://docs.px4.io/master/assets/img/mc_angle_diagram.90e53599.jpg)
+
+- Updates at 250 Hz
+- P controller
+- Receives $q_{sp}$ from "Acceleration and Yaw Attitude" module
+	- and current attitutde $q$ from sensor/estimator
+
+Technical Report Diagram:
+
+![[att-ctrl-quat.pdf#page=6]]See Figure 3
+
+##### Source Code:
+- Link: ~/PX4/Firmware/src/modules/mc_att_control/AttitudeControl
+
+###### Attitude Control Class
+- setProportionalGain
+	- yaw weight is limited between 0 and 1
+- setRateLimit
+- update
+
+###### References
+[[Matrix]]
+[[Mathlib]]
+
+#### II. Rate Controller
+Angular Rate Controller Diagram:
+![Controller Diagram](https://docs.px4.io/master/assets/img/mc_angular_rate_diagram.d3b839d2.jpg)
+
+- [ ] KPID Controller -> question for Yunshen
+- Anti-windup is integrated
+
 
 #flight_stack

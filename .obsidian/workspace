@@ -4,27 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "e7ce1c36951ba3ce",
+        "id": "24fbac58b756676e",
         "type": "leaf",
-        "dimension": 55.1239115874079,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Modules/Attitude & Rate Control.md",
             "mode": "source",
             "source": false
-          }
+          },
+          "pinned": true
         }
       },
       {
-        "id": "24fbac58b756676e",
+        "id": "bede9521480823bb",
         "type": "leaf",
-        "dimension": 44.8760884125921,
-        "pinned": true,
         "state": {
-          "type": "graph",
-          "state": {},
-          "pinned": true
+          "type": "markdown",
+          "state": {
+            "file": "Math/Mathlib.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules/Attitude & Rate Control.md",
+                "file": "Math/Mathlib.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +101,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e7ce1c36951ba3ce",
+  "active": "bede9521480823bb",
   "lastOpenFiles": [
+    "Math/Mathlib.md",
     "Modules/Attitude & Rate Control.md",
-    "PX4 Autopilot.md",
-    "Documents/att-ctrl-quat.pdf",
-    "Documents/MPC-PX4 Implementation.pdf",
     "NuttX OS.md",
+    "Math/Matrix.md",
+    "Documents/att-ctrl-quat.pdf",
     "Controller Hardware.md",
-    "Modules/UORB.md",
-    "Modules/Mavlink.md",
-    "Modules/Simulator.md",
-    "Modules/Mixer.md"
+    "PX4 Autopilot.md",
+    "Modules/Mixer.md",
+    "Modules/Navigator.md",
+    "Documents/MPC-PX4 Implementation.pdf"
   ]
 }

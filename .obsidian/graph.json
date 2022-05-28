@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 5431473
       }
+    },
+    {
+      "query": "tag:math",
+      "color": {
+        "a": 1,
+        "rgb": 10724259
+      }
     }
   ],
   "collapse-display": true,
@@ -53,6 +60,6 @@
   "repelStrength": 14.2134831460674,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.8360386601669924,
+  "scale": 0.6989606412938218,
   "close": true
 }

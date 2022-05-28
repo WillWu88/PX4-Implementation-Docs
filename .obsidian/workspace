@@ -6,18 +6,20 @@
       {
         "id": "e7ce1c36951ba3ce",
         "type": "leaf",
-        "dimension": 57.40120562625586,
+        "dimension": 55.1239115874079,
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "Documents/att-ctrl-quat.pdf"
+            "file": "Modules/Attitude & Rate Control.md",
+            "mode": "source",
+            "source": false
           }
         }
       },
       {
         "id": "24fbac58b756676e",
         "type": "leaf",
-        "dimension": 42.598794373744134,
+        "dimension": 44.8760884125921,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documents/att-ctrl-quat.pdf",
+                "file": "Modules/Attitude & Rate Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +101,15 @@
   },
   "active": "e7ce1c36951ba3ce",
   "lastOpenFiles": [
+    "Modules/Attitude & Rate Control.md",
+    "PX4 Autopilot.md",
     "Documents/att-ctrl-quat.pdf",
     "Documents/MPC-PX4 Implementation.pdf",
-    "Modules/Attitude & Rate Control.md",
     "NuttX OS.md",
+    "Controller Hardware.md",
     "Modules/UORB.md",
     "Modules/Mavlink.md",
-    "Controller Hardware.md",
     "Modules/Simulator.md",
-    "Modules/Mixer.md",
-    "Modules/Esimator.md"
+    "Modules/Mixer.md"
   ]
 }

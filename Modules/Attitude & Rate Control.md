@@ -47,8 +47,9 @@ Technical Report Diagram:
 - update
 
 ###### References
-[[Matrix]]
-[[Mathlib]]
+- Math
+	- [[Matrix]]
+	- [[Mathlib]]
 
 #### II. Rate Controller
 Angular Rate Controller Diagram:

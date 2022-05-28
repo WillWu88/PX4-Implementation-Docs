@@ -21,12 +21,8 @@
         "id": "bede9521480823bb",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Math/Mathlib.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -83,7 +79,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Mathlib.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

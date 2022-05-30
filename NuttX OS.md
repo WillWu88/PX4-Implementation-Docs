@@ -14,7 +14,8 @@ The flight stack's main function is to control the aircraft and estimate the sta
 - [[Commander]]
 - [[Navigator]]
 - [[Position Controller]]
-- [[Attitude & Rate Control]]
+- [[Attitude Control]]
+- [[Rate Control]]
 - [[Mixer]]
 
 ### Runtime Enviornment
@@ -36,9 +37,14 @@ Overall Controller Architecture
 ## 3. Drivers
 
 ## 4. Dev
-### Programming Conventions
+#### Programming Conventions
 - Gains are all of type *float*
 - Unit Quaternion
 - 
+
+#### Including the module into build
+1. Include source files, make CMakeLists.txt
+2. Write Kconfig for the directory
+3. Run -> make [build-tartget] boardconfig and select the module
 
 #main

@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "24fbac58b756676e",
+        "id": "bc75aa81c0c88237",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Modules/Attitude & Rate Control.md",
+            "file": "Modules/Attitude Control.md",
             "mode": "source",
             "source": false
-          },
-          "pinned": true
+          }
         }
       },
       {
-        "id": "bede9521480823bb",
+        "id": "77bbefb0a0fa3e2f",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "graph",
-          "state": {}
+          "state": {},
+          "pinned": true
         }
       }
     ],
@@ -79,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Modules/Attitude Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bede9521480823bb",
+  "active": "bc75aa81c0c88237",
   "lastOpenFiles": [
-    "Math/Mathlib.md",
-    "Modules/Attitude & Rate Control.md",
+    "Modules/Attitude Control.md",
     "NuttX OS.md",
-    "Math/Matrix.md",
-    "Documents/att-ctrl-quat.pdf",
-    "Controller Hardware.md",
-    "PX4 Autopilot.md",
-    "Modules/Mixer.md",
-    "Modules/Navigator.md",
-    "Documents/MPC-PX4 Implementation.pdf"
+    "Modules/Rate Control.md",
+    "Messages/parameter_update.md",
+    "Messages/vehicle_control_mode.md",
+    "Messages/vehicle_attitude_setpoint.md",
+    "Messages/vehicle_attitude.md",
+    "Messages/manual_control_setpoint.md",
+    "Messages/autotune_attitude_control_status.md",
+    "Messages/airspeed.md"
   ]
 }

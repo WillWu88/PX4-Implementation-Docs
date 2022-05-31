@@ -1,12 +1,26 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
+    {
+      "query": "tag:main",
+      "color": {
+        "a": 1,
+        "rgb": 5405920
+      }
+    },
+    {
+      "query": "tag:mid",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
     {
       "query": "tag:flight_stack",
       "color": {
@@ -29,20 +43,6 @@
       }
     },
     {
-      "query": "tag:main",
-      "color": {
-        "a": 1,
-        "rgb": 5405920
-      }
-    },
-    {
-      "query": "tag:mid",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
       "query": "tag:math",
       "color": {
         "a": 1,
@@ -53,13 +53,13 @@
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.0497191011236,
+  "lineSizeMultiplier": 1.15983146067416,
   "collapse-forces": false,
-  "centerStrength": 0.452247191011236,
-  "repelStrength": 10.3932584269663,
+  "centerStrength": 0.457865168539326,
+  "repelStrength": 12.1910112359551,
   "linkStrength": 1,
-  "linkDistance": 155,
-  "scale": 1.1761208090897568,
+  "linkDistance": 30,
+  "scale": 0.4016151595359254,
   "close": true
 }

@@ -1,4 +1,6 @@
-# Flight Controller Software
+ggested to base the new files of the iris or solo files.  
+The parameters, such as the vehicle mass, inertias, motor models, controller gains etc. can be changed in the new files to simulate a different vehicle.  
+But one won’t necessarily b# Flight Controller Software
 - Single Codebase
 - Reactive design, includes
 	- exchangable components
@@ -37,14 +39,8 @@ Overall Controller Architecture
 ## 3. Drivers
 
 ## 4. Dev
-#### Programming Conventions
-- Gains are all of type *float*
-- Unit Quaternion
-- 
 
-#### Including the module into build
-1. Include source files, make CMakeLists.txt
-2. Write Kconfig for the directory
-3. Run -> make [build-tartget] boardconfig and select the module
+
+
 
 #main

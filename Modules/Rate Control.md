@@ -5,4 +5,7 @@ Angular Rate Controller Diagram:
 - [ ] KPID Controller -> question for Yunshen
 - Anti-windup is integrated
 
+[[lqr_controll]]
+[[Quadcopter Model]]
+
 #flight_stack 

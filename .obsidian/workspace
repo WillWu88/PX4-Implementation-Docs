@@ -4,26 +4,122 @@
     "type": "split",
     "children": [
       {
-        "id": "bc75aa81c0c88237",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Modules/Attitude Control.md",
-            "mode": "source",
-            "source": false
+        "id": "8b674e3fa8b6b9d6",
+        "type": "split",
+        "children": [
+          {
+            "id": "024c92bcb09774cb",
+            "type": "leaf",
+            "dimension": 57.669122572002685,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Quadcopter Model.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "153686e737774e9c"
+          },
+          {
+            "id": "2800f328f3a1b964",
+            "type": "split",
+            "dimension": 42.33087742799732,
+            "children": [
+              {
+                "id": "e1819faa550652e9",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Math/Quadcopter Model.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#main",
+                          "color": {
+                            "a": 1,
+                            "rgb": 5419488
+                          }
+                        },
+                        {
+                          "query": "tag:#mid",
+                          "color": {
+                            "a": 1,
+                            "rgb": 5431473
+                          }
+                        },
+                        {
+                          "query": "tag:#flight_stack",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14701138
+                          }
+                        },
+                        {
+                          "query": "tag:#msg",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14725458
+                          }
+                        },
+                        {
+                          "query": "tag:#drv",
+                          "color": {
+                            "a": 1,
+                            "rgb": 11657298
+                          }
+                        },
+                        {
+                          "query": "tag:#math",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6513507
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.6989606412938243,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "153686e737774e9c"
+              },
+              {
+                "id": "885d19b54842f624",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true
+                }
+              }
+            ],
+            "direction": "horizontal"
           }
-        }
-      },
-      {
-        "id": "77bbefb0a0fa3e2f",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "graph",
-          "state": {},
-          "pinned": true
-        }
+        ],
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -50,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#main",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules/Attitude Control.md",
+                "file": "Math/Quadcopter Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +193,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bc75aa81c0c88237",
+  "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "Math/Quadcopter Model.md",
+    "Documents/Quadcopter-sim.pdf",
+    "Documents/att-ctrl-quat.pdf",
+    "Documents/Quaternion-Based-Model.pdf",
     "Modules/Attitude Control.md",
-    "NuttX OS.md",
-    "Modules/Rate Control.md",
-    "Messages/parameter_update.md",
-    "Messages/vehicle_control_mode.md",
+    "ModuleBase.md",
     "Messages/vehicle_attitude_setpoint.md",
-    "Messages/vehicle_attitude.md",
-    "Messages/manual_control_setpoint.md",
-    "Messages/autotune_attitude_control_status.md",
-    "Messages/airspeed.md"
+    "NuttX OS.md",
+    "Modules/Commander.md",
+    "Modules/UORB.md"
   ]
 }

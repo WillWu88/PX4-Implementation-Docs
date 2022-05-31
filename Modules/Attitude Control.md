@@ -20,7 +20,12 @@ $$\hat{p} = q \cdot p \cdot q^{-1}$$
 - Inverse: $$q^{-1} = \frac{1}{norm(q)} \cdot (q_0, -q^r)$$
 and much more
 
-## 2. Multi-copter Attitude Controller Implementation
+## 2. Attitude Controller LQR Framework
+- For modeling, see [[Quadcopter Model]]
+- For LQR controller design with [[Rate Control]] integrated, see [[lqr_controll]]
+
+
+## 3. Multi-copter Attitude Controller Implementation
 
 For general control structure, refer to [[NuttX OS]]
 

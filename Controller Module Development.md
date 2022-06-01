@@ -21,4 +21,4 @@
 - Run command: *make px4_sitl gazebo_my_vehicle*
 - [Ref](https://discuss.px4.io/t/create-custom-model-for-sitl/6700/3)
 
-orm of the quaternion state vector to 1.0 should εbecome nonzero. You must choose the value of this gain with care, because a large value improves the decay rate of the error in the norm, but also slows the simulation because fast dynamics are introduced. An error i
+#development 

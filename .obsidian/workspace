@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Quadcopter Model.md",
+                "file": "Modules/lqr_controll.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Math/Quadcopter Model.md",
+                    "file": "Modules/lqr_controll.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#main",
+                "query": "tag:#lqr_module",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +155,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Quadcopter Model.md",
+                "file": "Modules/lqr_controll.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,17 +194,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "024c92bcb09774cb",
+  "active": "e1819faa550652e9",
   "lastOpenFiles": [
+    "Modules/lqr_controll.md",
     "Math/Quadcopter Model.md",
-    "Documents/Quadcopter-sim.pdf",
-    "Documents/att-ctrl-quat.pdf",
-    "Documents/Quaternion-Based-Model.pdf",
-    "Modules/Attitude Control.md",
-    "ModuleBase.md",
-    "Messages/vehicle_attitude_setpoint.md",
     "NuttX OS.md",
-    "Modules/Commander.md",
-    "Modules/UORB.md"
+    "Controller Module Development.md",
+    "Math/Quaternion.md",
+    "Modules/Attitude Control.md",
+    "Documents/Quadcopter-sim.pdf",
+    "Documents/MPC-PX4 Implementation.pdf",
+    "Documents/Quaternion-Based-Model.pdf",
+    "Documents/att-ctrl-quat.pdf"
   ]
 }

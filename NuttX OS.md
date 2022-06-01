@@ -40,6 +40,10 @@ Overall Controller Architecture
 
 ## 4. Dev
 
+### Stage 1: Attitude LQR Controller
+- Substitute out the default PID Attitude and Rate Controller for LQR-based control
+
+See [[lqr_controll]] for notes on design, implementation and development
 
 
 

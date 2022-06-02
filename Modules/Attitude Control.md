@@ -15,7 +15,7 @@ For general control structure, refer to [[NuttX OS]]
 ### A. Input
 - Receives $q_{sp}$ from "Acceleration and Yaw to Attitude" module
 	- and current attitutde $q$ from sensor/estimator
-- Indirectly receives input from [[Position Controller]]
+- Indirectly receives input from [[Position and Velocity Controller]]
 
 ### B. Angle Controller
 Angle Controller Diagram:
@@ -56,8 +56,10 @@ Technical Report Diagram:
 - [[vehicle_control_mode]]
 - [[vehicle_status]]
 - [[vehicle_land_detected]]
+
 2. **Subscription Call Back**
 - [[vehicle_attitude]]
+
 3. **Publication**
 - [[vehicle_rates_setpoint]]
 - [[vehicle_attitude_setpoint]]

@@ -1,18 +1,14 @@
-afterwards a rotation of p in the new coordinate system.afterwards a rotation of p in the new coordinate system.afterwards a rotation of p in the new coordinate system.afterwards a rotation of p in the new coordinate system.# PX4 Autopilot Firmware
-
-
+# PX4 Autopilot: Architecture, Data, and Implementation of LQR Controller 
 ## 1. System Architecture
-#### Flight Controller Only
+#### I. Flight Controller Only
 Three components:
 - [[NuttX OS]]
 - [[Controller Hardware]]
 - [[Support Software]]
 
-#### Addition of Companion Computer
+#### II. Addition of Companion Computer
 - Connected via Mavlink
 - Used for heavier computing
-
-
 
 
 #main

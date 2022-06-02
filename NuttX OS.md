@@ -15,7 +15,7 @@ The flight stack's main function is to control the aircraft and estimate the sta
 - [[Esimator]]
 - [[Commander]]
 - [[Navigator]]
-- [[Position Controller]]
+- [[Position and Velocity Controller]]
 - [[Attitude Control]]
 - [[Rate Control]]
 - [[Mixer]]

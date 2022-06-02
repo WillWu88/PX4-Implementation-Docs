@@ -39,10 +39,14 @@ The principles of translational kinematics remain largely the same under our fra
 
 
 #### B. Lab Drone
+- [ ] Identify Moments of Inertia and relevant parameters
+
 
 ## Appendix: Reference
 - [[Quaternion-Based-Model.pdf]]
 - Aircraft Control and Simulation
 	- Page 50-51: quaternion kinematics
 - [[Quadcopter-sim.pdf]]
+- [[Tailsitter_report Daniel.pdf]]
+
 #math 

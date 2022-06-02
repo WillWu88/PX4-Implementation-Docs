@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules/lqr_controll.md",
+                "file": "Modules/Position and Velocity Controller.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,10 +29,11 @@
               {
                 "id": "e1819faa550652e9",
                 "type": "leaf",
+                "dimension": 40.237859266600594,
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Modules/lqr_controll.md",
+                    "file": "Modules/Position and Velocity Controller.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -40,7 +41,7 @@
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": false,
-                      "showTags": false,
+                      "showTags": true,
                       "showAttachments": true,
                       "hideUnresolved": false,
                       "collapse-color-groups": true,
@@ -93,12 +94,12 @@
                       "textFadeMultiplier": 0,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
+                      "collapse-forces": false,
                       "centerStrength": 0.518713248970312,
                       "repelStrength": 10,
                       "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.6989606412938243,
+                      "linkDistance": 164,
+                      "scale": 0.8360386601669947,
                       "close": true
                     }
                   }
@@ -108,6 +109,7 @@
               {
                 "id": "885d19b54842f624",
                 "type": "leaf",
+                "dimension": 59.762140733399406,
                 "pinned": true,
                 "state": {
                   "type": "graph",
@@ -146,7 +148,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#lqr_module",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,8 +157,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules/lqr_controll.md",
+                "file": "Modules/Position and Velocity Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,17 +195,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e1819faa550652e9",
+  "active": "024c92bcb09774cb",
   "lastOpenFiles": [
-    "Modules/lqr_controll.md",
-    "Math/Quadcopter Model.md",
-    "NuttX OS.md",
-    "Controller Module Development.md",
-    "Math/Quaternion.md",
+    "Modules/Position and Velocity Controller.md",
     "Modules/Attitude Control.md",
-    "Documents/Quadcopter-sim.pdf",
-    "Documents/MPC-PX4 Implementation.pdf",
-    "Documents/Quaternion-Based-Model.pdf",
-    "Documents/att-ctrl-quat.pdf"
+    "NuttX OS.md",
+    "Modules/lqr_controll.md",
+    "Messages/autotune_attitude_control_status.md",
+    "Messages/airspeed.md",
+    "Modules/UORB.md",
+    "PX4 Autopilot.md",
+    "Math/Quadcopter Model.md",
+    "Documents/Quaternion-Based-Model.pdf"
   ]
 }

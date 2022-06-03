@@ -37,7 +37,7 @@ if $q$ is unit quaternion, then the product between $q$ and its inverse is the i
 - Inverse of product
 $$(p*q)^{-1} = q^{-1}*p^{-1}$$
 
-### Unit Quaternion as Rotation
+### Unit Quaternion Denoting Rotation
 Very similar to [[#Euler's Rotation Theorem]], quaternion visualizes a fixed amount of rotation around an **unit vector** in the form of $i, j$ and $k$. 
 
 $$q = e^{\frac{\theta}{2}(e_x i + e_y j + e_z k)} = \cos{\frac{\theta}{2}} + (e_x i + e_y j + e_z k)\sin{\frac{\theta}{2}}$$
@@ -50,4 +50,4 @@ $$u = q^{-1} * u * q$$
 - Quaternion can be converted into DCM form
 	- [Ref](!https://www.mathworks.com/help/aerotbx/ug/quatrotate.html)
 
-#math 
+#theory 

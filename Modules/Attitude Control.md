@@ -5,12 +5,14 @@ See [[Quaternion]] for detailed notes on the quaternion framework.
 
 ## 2. Attitude Controller LQR Framework
 - For modeling, see [[Quadcopter Model]]
-- For LQR controller design with [[Rate Control]] integrated, see [[lqr_controll]]
+- For LQR controller design with [[Rate Control]] integrated, see [[LQR Controller]]
 
 
 ## 3. Multi-copter Attitude Controller Implementation
 
 For general control structure, refer to [[NuttX OS]]
+Default implementation uses a [[PID Controller]]
+
 
 ### A. Input
 - Receives $q_{sp}$ from "Acceleration and Yaw to Attitude" module

@@ -33,7 +33,7 @@ The principles of translational kinematics remain largely the same under our fra
 #### A. Gazebo Iris Quadcopter
 - See iris.sdf for parameters
 - $a$, $b$, $c$, and $d$ aerodynamic coefficients are only relevant in mixer. 
-- since rotation doesn't involve thrust, there's no need for identifying equilibrium motor speed
+- since rotation doesn't involve thrust, there's no need for identifying equilibrium motor speed, which is only relevant for the mixer
 - Gyroscopic moments and aerodynamic moments are removed for simplicity.
 	- Investigate/add these terms back if the controller doesn't stabilize
 
@@ -49,4 +49,4 @@ The principles of translational kinematics remain largely the same under our fra
 - [[Quadcopter-sim.pdf]]
 - [[Tailsitter_report Daniel.pdf]]
 
-#math 
+#theory 

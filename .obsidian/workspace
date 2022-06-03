@@ -10,11 +10,11 @@
           {
             "id": "024c92bcb09774cb",
             "type": "leaf",
-            "dimension": 57.669122572002685,
+            "dimension": 55.99464166108506,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules/Position and Velocity Controller.md",
+                "file": "Modules/LQR Controller.md",
                 "mode": "source",
                 "source": false
               }
@@ -24,7 +24,7 @@
           {
             "id": "2800f328f3a1b964",
             "type": "split",
-            "dimension": 42.33087742799732,
+            "dimension": 44.00535833891494,
             "children": [
               {
                 "id": "e1819faa550652e9",
@@ -33,9 +33,9 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Modules/Position and Velocity Controller.md",
+                    "file": "Modules/LQR Controller.md",
                     "options": {
-                      "collapse-filter": false,
+                      "collapse-filter": true,
                       "search": "",
                       "localJumps": 1,
                       "localBacklinks": true,
@@ -44,7 +44,7 @@
                       "showTags": true,
                       "showAttachments": true,
                       "hideUnresolved": false,
-                      "collapse-color-groups": true,
+                      "collapse-color-groups": false,
                       "colorGroups": [
                         {
                           "query": "tag:#main",
@@ -87,6 +87,13 @@
                             "a": 1,
                             "rgb": 6513507
                           }
+                        },
+                        {
+                          "query": "theory",
+                          "color": {
+                            "a": 1,
+                            "rgb": 8147680
+                          }
                         }
                       ],
                       "collapse-display": true,
@@ -109,7 +116,7 @@
               {
                 "id": "885d19b54842f624",
                 "type": "leaf",
-                "dimension": 59.762140733399406,
+                "dimension": 59.76214073339941,
                 "pinned": true,
                 "state": {
                   "type": "graph",
@@ -177,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules/Position and Velocity Controller.md",
+                "file": "Modules/LQR Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,15 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
-    "Modules/Position and Velocity Controller.md",
-    "Modules/Attitude Control.md",
-    "NuttX OS.md",
-    "Modules/lqr_controll.md",
-    "Messages/autotune_attitude_control_status.md",
+    "Modules/LQR Controller.md",
+    "Documents/Quadcopter-sim.pdf",
+    "Theory/PID Controller.md",
+    "Theory/System Theory.md",
+    "Theory/Quaternion.md",
+    "Theory/Quadcopter Model.md",
+    "PX4 Math Module/Matrix.md",
+    "PX4 Math Module/Mathlib.md",
     "Messages/airspeed.md",
-    "Modules/UORB.md",
-    "PX4 Autopilot.md",
-    "Math/Quadcopter Model.md",
-    "Documents/Quaternion-Based-Model.pdf"
+    "Modules/Attitude Control.md"
   ]
 }

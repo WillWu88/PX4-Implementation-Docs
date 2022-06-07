@@ -51,10 +51,12 @@ We started by modelling the difference in sampling rates. Position and Velocity 
 The controller clearly tracks the reference signals asymptotically. 
 
 ###### V. Position, Velocity PID + Attitude LQR
-We now investigate if we can formulate a LQR attitude & rate controller based on our current framework. 
+We will investigate if we can formulate a LQR attitude & rate controller based on our current framework.
 
-- **PID Tuning**
-	- 
+Controller takes in quaternion and attitude set point from position and velocity controller, and outputs wrench signals to mixer. 
+
+A PID simulation is first set up in matlab, using the default px4 parameters
+
 
 ###### VI. Time Domain Simulation, Saturation and Picking $Q$ and $R$ Matrices
 

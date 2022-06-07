@@ -36,6 +36,7 @@ Overall Controller Architecture
 - [[Simulator]]
 - [[UORB]]
 - [[Mavlink]]
+- [[ROMFS]]
 ## 3. Drivers
 
 ## 4. Dev

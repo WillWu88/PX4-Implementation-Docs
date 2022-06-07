@@ -205,14 +205,14 @@
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
     "Modules/LQR Controller.md",
-    "Documents/Quadcopter-sim.pdf",
-    "Theory/PID Controller.md",
-    "Theory/System Theory.md",
-    "Theory/Quaternion.md",
-    "Theory/Quadcopter Model.md",
-    "PX4 Math Module/Matrix.md",
-    "PX4 Math Module/Mathlib.md",
-    "Messages/airspeed.md",
-    "Modules/Attitude Control.md"
+    "NuttX OS.md",
+    "Modules/ROMFS.md",
+    "Modules/UORB.md",
+    "Modules/Simulator.md",
+    "Modules/Mavlink.md",
+    "Development/Controller Module Development.md",
+    "Development/KConfig.md",
+    "Development/CMake.md",
+    "Development/C++ Notes.md"
   ]
 }

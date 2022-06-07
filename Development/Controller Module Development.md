@@ -21,4 +21,11 @@
 - Run command: *make px4_sitl gazebo_my_vehicle*
 - [Ref](https://discuss.px4.io/t/create-custom-model-for-sitl/6700/3)
 
+## 2. LQR Math Class
+
+## 3. LQR Control Class
+[[CMake]]
+[[KConfig]]
+[[C++ Notes]]
+
 #development 

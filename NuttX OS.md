@@ -20,6 +20,8 @@ The flight stack's main function is to control the aircraft and estimate the sta
 - [[Rate Control]]
 - [[Mixer]]
 
+**Our Research will focus on the [[#4 Research Focus]]**
+
 ### Runtime Enviornment
 - Task, vs
 - Work Queue Task
@@ -39,12 +41,11 @@ Overall Controller Architecture
 - [[ROMFS]]
 ## 3. Drivers
 
-## 4. Dev
-
+## 4. Research Focus
 ### Stage 1: Attitude LQR Controller
 - Substitute out the default PID Attitude and Rate Controller for LQR-based control
 
-See [[LQR Controller]] for notes on design, implementation and development
+See [[LQR Controller]] for notes on design, [[Controller Module Development]] for implementation and development
 
 
 

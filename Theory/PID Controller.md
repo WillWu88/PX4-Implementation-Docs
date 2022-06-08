@@ -37,7 +37,7 @@ $$\therefore K(s) = \frac{C(s)}{E(s)} = k_p + sk_d$$
 - PD controller also does not eliminate steady state error, but it increases rise time and eliminates over-shooting
 - It also allows us to tune the damping ratio and natural frequency of the system separately. 
 
-
+### F. Integrator Windup and Anti-Windup Methods
 
 
 ## References

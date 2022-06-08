@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules/LQR Controller.md",
+                "file": "Development/CMake.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Modules/LQR Controller.md",
+                    "file": "Development/CMake.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -106,7 +106,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 164,
-                      "scale": 0.8360386601669947,
+                      "scale": 0.8360386601669944,
                       "close": true
                     }
                   }
@@ -155,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#development",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules/LQR Controller.md",
+                "file": "Development/CMake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
-    "Modules/LQR Controller.md",
-    "NuttX OS.md",
-    "Modules/ROMFS.md",
-    "Modules/UORB.md",
-    "Modules/Simulator.md",
-    "Modules/Mavlink.md",
-    "Development/Controller Module Development.md",
-    "Development/KConfig.md",
     "Development/CMake.md",
-    "Development/C++ Notes.md"
+    "Modules/Attitude Control.md",
+    "Development/Controller Module Development.md",
+    "Documents/MPC-PX4 Implementation.pdf",
+    "NuttX OS.md",
+    "Messages/rate_ctrl_status.md",
+    "Modules/LQR Controller.md",
+    "PX4 Math Module/Limits.md",
+    "Modules/Mixer.md",
+    "Modules/Rate Control.md"
   ]
 }

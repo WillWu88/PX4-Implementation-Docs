@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/CMake.md",
+                "file": "PX4 Math Module/Eigen.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Development/CMake.md",
+                    "file": "PX4 Math Module/Eigen.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -155,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#development",
+                "query": "kconfig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/CMake.md",
+                "file": "PX4 Math Module/Eigen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "PX4 Math Module/Eigen.md",
+    "Development/Controller Module Development.md",
+    "PX4 Math Module/Limits.md",
+    "PX4 Math Module/Matrix.md",
+    "PX4 Math Module/Mathlib.md",
+    "Documents/MPC-PX4 Implementation.pdf",
+    "Development/KConfig.md",
     "Development/CMake.md",
     "Modules/Attitude Control.md",
-    "Development/Controller Module Development.md",
-    "Documents/MPC-PX4 Implementation.pdf",
-    "NuttX OS.md",
-    "Messages/rate_ctrl_status.md",
-    "Modules/LQR Controller.md",
-    "PX4 Math Module/Limits.md",
-    "Modules/Mixer.md",
-    "Modules/Rate Control.md"
+    "NuttX OS.md"
   ]
 }

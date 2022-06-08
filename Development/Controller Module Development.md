@@ -17,6 +17,10 @@
 1. Include source files, make CMakeLists.txt
 2. Write Kconfig for the directory
 3. Run -> make [build-tartget] boardconfig and select the module
+```shell
+make <build_target> boardconfig
+```
+
 
 #### Gazebo Models, Parameter Extraction and Custom Model Simulation
 - Model files are located in: *Tools/sitl_gazebo/models*
@@ -59,7 +63,8 @@
 - px4_platform_common/defines.h
 
 ### D. Eigen Library
-Set up:
+- Set up:
+- Notes on usage [[Eigen]]
 
 ## 3. LQR Module Class
 

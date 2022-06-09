@@ -1,11 +1,17 @@
 # Controller Module Development
 
-## 0. Checklist
+## 0. Checklist & Questions
+
+### A. Checklist
 - [ ] [[#2 LQR Math Class]]
 	- [ ] Math Lib
 	- [ ] Unit Tests
 - [ ] [[#3 LQR Module Class]]
 - [ ]  Cmake, compiler config
+
+### B. Questions
+- [ ] Yaw speed?
+- [ ] Data hazard handling
 
 ## 1. Procedures and Conventions
 
@@ -67,7 +73,7 @@ make <build_target> boardconfig
 - Notes on usage [[Eigen]]
 
 ## 3. LQR Module Class
-
+[[ModuleBase]] Functionalities
 
 
 [[CMake]]

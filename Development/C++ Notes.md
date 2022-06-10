@@ -27,8 +27,10 @@
 3. Return by pointer
 	- can cause data hazard
 
+### Macros
 
 ## References:
 - [Libraries](https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/)
-- 
+- [[Testing]] for C++ Unit Tests
+- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Function_Names) for naming conventions
 #development 

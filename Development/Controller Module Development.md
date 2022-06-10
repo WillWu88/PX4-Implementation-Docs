@@ -38,6 +38,12 @@ make <build_target> boardconfig
 - Run command: *make px4_sitl gazebo_my_vehicle*
 - [Ref](https://discuss.px4.io/t/create-custom-model-for-sitl/6700/3)
 
+### Warning: do not run *"cmake ."*
+- Preserve the original Makefile, which contains all the necessary build targets
+
+### Projectile Set Up
+- .cache and compile_commands.json help clang to index heder files
+
 ## 2. LQR Math Class
 ### A. Member Variables
 - Private
@@ -69,12 +75,19 @@ make <build_target> boardconfig
 - px4_platform_common/defines.h
 
 ### D. Eigen Library
-- Set up:
+- Set up
+	- added cmakelist
+	- edited cmakelist in relevant places
+	- may need more config
 - Notes on usage [[Eigen]]
+
+### E. Unit Tests
+- Our goal is to test the functions and internal calculations of "LQRControl"
+- Refer to [[Testing]] for unit test notes
+
 
 ## 3. LQR Module Class
 [[ModuleBase]] Functionalities
-
 
 [[CMake]]
 [[KConfig]]

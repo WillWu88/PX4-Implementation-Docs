@@ -106,7 +106,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 164,
-                      "scale": 0.8360386601669944,
+                      "scale": 0.6989606412938237,
                       "close": true
                     }
                   }
@@ -164,8 +164,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,6 +205,7 @@
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
     "Development/C++ Notes.md",
+    "Development/Testing.md",
     "Development/Controller Module Development.md",
     "Development/KConfig.md",
     "Development/CMake.md",
@@ -213,7 +213,6 @@
     "PX4 Math Module/Eigen.md",
     "PX4 Math Module/Limits.md",
     "PX4 Math Module/Matrix.md",
-    "PX4 Math Module/Mathlib.md",
-    "Documents/MPC-PX4 Implementation.pdf"
+    "PX4 Math Module/Mathlib.md"
   ]
 }

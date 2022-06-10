@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#development",
@@ -70,10 +70,10 @@
   "nodeSizeMultiplier": 1.0497191011236,
   "lineSizeMultiplier": 1.15983146067416,
   "collapse-forces": false,
-  "centerStrength": 0.457865168539326,
-  "repelStrength": 12.1910112359551,
+  "centerStrength": 0.44644764957265,
+  "repelStrength": 13.2024572649573,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3357657998811676,
+  "scale": 0.5745890910144872,
   "close": true
 }

@@ -12,9 +12,12 @@
 ### B. Questions
 - [ ] Yaw speed?
 - [ ] Data hazard handling
+- [ ] Floating point calculation: error around 0.005
 
 ## 1. Procedures and Conventions
-
+#### Specified Language Versions
+- C++ 14
+- C 11
 #### Programming Conventions
 - Gains are all of type *float*
 - Unit Quaternion
@@ -84,10 +87,15 @@ make <build_target> boardconfig
 ### E. Unit Tests
 - Our goal is to test the functions and internal calculations of "LQRControl"
 - Refer to [[Testing]] for unit test notes
+- Unit test list
+- [x] Conversion tests
+- [x] Run update once 
 
 
 ## 3. LQR Module Class
 [[ModuleBase]] Functionalities
+
+
 
 [[CMake]]
 [[KConfig]]

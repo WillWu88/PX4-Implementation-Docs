@@ -29,6 +29,20 @@
 
 ### Macros
 
+### Errors:
+- Invalid use of non-static data member
+```cpp
+class Stack
+{               
+private:
+    const int _num_of_output = 3;
+	const int _num_of_states = 6;
+	Eigen::Matrix<float, _num_of_output, _num_of_states> _lqr_gain_matrix; //error
+};
+```
+Matrix is implemented as an array (?), so the size must be known and static at compile time
+	- Solved using `constexpr`
+
 ## References:
 - [Libraries](https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/)
 - [[Testing]] for C++ Unit Tests

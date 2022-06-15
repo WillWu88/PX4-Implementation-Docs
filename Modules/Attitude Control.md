@@ -50,25 +50,68 @@ Technical Report Diagram:
 
 
 ### C. Attitude Controller Module:
-###### Controller Messages
-1. **Subscription**
-- [[autotune_attitude_control_status]]
-- [[manual_control_setpoint]]
-- [[vehicle_attitude_setpoint]]
-- [[vehicle_control_mode]]
-- [[vehicle_status]]
-- [[vehicle_land_detected]]
-
-2. **Subscription Call Back**
-- [[vehicle_attitude]]
-
-3. **Publication**
-- [[vehicle_rates_setpoint]]
-- [[vehicle_attitude_setpoint]]
+###### Messages associated with Attitude Control
+- Subscription
+	- [[autotune_attitude_control_status]]
+	- [[manual_control_setpoint]]
+	- [[vehicle_attitude_setpoint]]
+	- [[vehicle_control_mode]]
+	- [[vehicle_status]]
+	- [[vehicle_land_detected]]
+- Subscription Call Back Work Item
+	- [[vehicle_attitude]]
+- Publication
+	- [[vehicle_rates_setpoint]]
+	- [[vehicle_attitude_setpoint]]
 
 ###### Inheritance, basis, etc
 - Implemented as a **WorkItem**
 - See [[ModuleBase]]
+
+###### mc_att_control class
+- public
+	- methods
+		- constructor/destructor
+			- calls constructor on `ModuleParams` and `WorkItem`
+			- destructor free loop counter
+		- `task_spawn`
+		- `custom_command`
+		- `print_usage`
+		- `init`
+			- check subscription callback work item's register call back status
+- private:
+	- methods
+		- `Run` (override)
+			1. Check if program should exit
+			2. Check if parameter has updated
+			3. 
+		- `parameters_updated`
+		- `throttle_curve`
+		- `generate_attitude_setpoint`
+			- can leave generally untouched
+			- Pay very close attention to the last three lines, where the function interacts with the controller and generate thrust/timestamp for other systems
+	- member variables
+		- messaging variables
+		- controller object
+		- `manual_control_setpoint` object
+		- `vehicle_control_mode` object
+		- `perf_counter` object
+		- `thrust_setpoint_body`
+		- `yaw_setpoint` (manual flight)
+		- `man_tilt_max` (manual flight)
+		- input filters
+		- `hrt_abstime` objects
+			- last_run
+			- last_attitude_setpoint
+		- vehicle booleans
+			- landed (true)
+			- reset_yaw_sp (true)
+			- vehicle_type_rotary_wing (true)
+			- vtol (false)
+			- vtol_tailsitter (false)
+			- vtol_in_trainsition (false)
+		- `quat_reset_counter` (uint8, 0)
+		- controller-specific parameters
 
 ### D. Output
 * Angular Rate $\Omega$ set points

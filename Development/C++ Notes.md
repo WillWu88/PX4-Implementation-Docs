@@ -43,6 +43,13 @@ private:
 Matrix is implemented as an array (?), so the size must be known and static at compile time
 	- Solved using `constexpr`
 
+### Conditional Operator  `?`
+- Only *Ternary Operator* in C++ (three operands)
+```cpp
+condition ? result_if_true : result_if_false
+```
+
+
 ## References:
 - [Libraries](https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/)
 - [[Testing]] for C++ Unit Tests

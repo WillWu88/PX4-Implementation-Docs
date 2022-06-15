@@ -3,9 +3,9 @@
 ## 0. Checklist & Questions
 
 ### A. Checklist
-- [ ] [[#2 LQR Math Class]]
-	- [ ] Math Lib
-	- [ ] Unit Tests
+- [x] [[#2 LQR Math Class]]
+	- [x] Math Lib
+	- [x] Unit Tests
 - [ ] [[#3 LQR Module Class]]
 - [ ]  Cmake, compiler config
 
@@ -13,6 +13,8 @@
 - [ ] Yaw speed?
 - [ ] Data hazard handling
 - [ ] Floating point calculation: error around 0.005
+- [ ] Template class, derived class (module params, module base, etc)
+- [ ] Methodologies
 
 ## 1. Procedures and Conventions
 #### Specified Language Versions
@@ -94,13 +96,59 @@ make <build_target> boardconfig
 
 ## 3. LQR Module Class
 [[ModuleBase]] Functionalities
+Public: 
+- `task_spawn`
+- `custom_command`
+- `print_usage`
+- `init`
 
+Private:
+- `Run`
+- `parameters_updated`
 
+This module class will serve as a combination between [[Attitude Control]] and [[Rate Control]]. See their respective pages for [[uORB]] messaging implementation.
+
+### Related Messages:
+#### A. Messages associated with Attitude Control
+- Subscription
+	- [[autotune_attitude_control_status]]
+	- [[manual_control_setpoint]]
+	- [[vehicle_attitude_setpoint]]
+	- [[vehicle_control_mode]]
+	- [[vehicle_status]]
+	- [[vehicle_land_detected]]
+- Subscription Call Back Work Item
+	- [[vehicle_attitude]]
+- Publication
+	- [[vehicle_rates_setpoint]]
+	- [[vehicle_attitude_setpoint]]
+
+#### B. Messages associated with Rate Control
+- Subscription
+	- [[battery_status]]
+	- [[control_allocator_status]]
+	- [[landing_gear]]
+	- [[manual_control_setpoint]]
+	- [[vehicle_angular_acceleration]]
+	- [[vehicle_control_mode]]
+	- [[vehicle_land_detected]]
+	- [[vehicle_rates_setpoint]]
+	- [[vehicle_status]]
+- Subscription Call Back
+	- [[vehicle_angular_velocity]]
+- Publication
+	- [[actuator_controls]]
+	- [[actuator_controls_status]]
+	- [[rate_control_status]] (Publication Multi)
+	- [[vehicle_rates_setpoint]]
+	- [[vehicle_thrust_setpoint]]
+	- [[vehicle_torque_setpoint]]
+- Extra
+	- [[parameter_update]]
 
 [[CMake]]
 [[KConfig]]
 [[C++ Notes]]
-
 
 ## Appendix: References
 - [[MPC-PX4 Implementation.pdf]]

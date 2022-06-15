@@ -106,7 +106,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 164,
-                      "scale": 0.6989606412938237,
+                      "scale": 0.6989606412938234,
                       "close": true
                     }
                   }
@@ -155,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kconfig",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,14 +205,14 @@
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
     "Development/Controller Module Development.md",
-    "ModuleBase.md",
+    "Flight Mode.md",
+    "Modules/Commander.md",
+    "NuttX OS.md",
+    "Modules/Attitude Control.md",
     "Development/C++ Notes.md",
-    "Development/KConfig.md",
-    "Development/Testing.md",
-    "Development/CMake.md",
-    "PX4 Math Module/Eigen.md",
-    "PX4 Math Module/Limits.md",
-    "PX4 Math Module/Matrix.md",
-    "PX4 Math Module/Mathlib.md"
+    "Drivers/drv_hrt.h.md",
+    "Modules/Rate Control.md",
+    "Modules/UORB.md",
+    "Messages/vehicle_torque_setpoint.md"
   ]
 }

@@ -13,7 +13,7 @@
 - [ ] Yaw speed?
 - [ ] Data hazard handling
 - [ ] Floating point calculation: error around 0.005
-- [ ] Template class, derived class (module params, module base, etc)
+- [x] Template class, derived class (module params, module base, etc)
 - [ ] Methodologies
 
 ## 1. Procedures and Conventions
@@ -95,7 +95,7 @@ make <build_target> boardconfig
 
 
 ## 3. LQR Module Class
-[[ModuleBase]] Functionalities
+### A. [[ModuleBase]] Functionalities
 Public: 
 - `task_spawn`
 - `custom_command`
@@ -108,7 +108,7 @@ Private:
 
 This module class will serve as a combination between [[Attitude Control]] and [[Rate Control]]. See their respective pages for [[uORB]] messaging implementation.
 
-### Related Messages:
+### B. Related Messages:
 #### A. Messages associated with Attitude Control
 - Subscription
 	- [[autotune_attitude_control_status]]
@@ -149,6 +149,16 @@ This module class will serve as a combination between [[Attitude Control]] and [
 [[CMake]]
 [[KConfig]]
 [[C++ Notes]]
+
+
+## 4. Debugging
+per Prof. Shidal's advice, a good way to learn about the system is to step through the debugger and examine the relationship between each module.
+
+See [[GDB]] for notes on using the debugger.
+
+### Simulation
+- Lockstep: actuator signals now come with timesteps, making it possible to pause
+- we can also control the speed of simulation with `PX4_SIM_SPEED_FACTOR`
 
 ## Appendix: References
 - [[MPC-PX4 Implementation.pdf]]

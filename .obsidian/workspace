@@ -155,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#development",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,6 +205,7 @@
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
     "Development/Controller Module Development.md",
+    "Development/GDB.md",
     "Flight Mode.md",
     "Modules/Commander.md",
     "NuttX OS.md",
@@ -212,7 +213,6 @@
     "Development/C++ Notes.md",
     "Drivers/drv_hrt.h.md",
     "Modules/Rate Control.md",
-    "Modules/UORB.md",
-    "Messages/vehicle_torque_setpoint.md"
+    "Modules/UORB.md"
   ]
 }

@@ -97,11 +97,11 @@ make <build_target> boardconfig
 ## 3. LQR Module Class
 ### A. [[ModuleBase]] Functionalities
 Public: 
-- `task_spawn`
 - `custom_command`
+- `task_spawn`
 - `print_usage`
 - `init`
-
+git
 Private:
 - `Run`
 - `parameters_updated`

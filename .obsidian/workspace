@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Controller Module Development.md",
+                "file": "Controller Hardware.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Development/Controller Module Development.md",
+                    "file": "Controller Hardware.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -156,7 +156,7 @@
               "type": "search",
               "state": {
                 "query": "hrt",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -164,8 +164,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Controller Module Development.md",
+                "file": "Controller Hardware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,15 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "Controller Hardware.md",
+    "PX4 Autopilot.md",
+    "Support Software.md",
+    "ModuleBase.md",
+    "Flight Mode.md",
     "Development/Controller Module Development.md",
+    "Messages/autotune_attitude_control_status.md",
     "Drivers/drv_hrt.h.md",
     "Modules/Esimator.md",
-    "Flight Mode.md",
-    "Modules/Commander.md",
-    "NuttX OS.md",
-    "Modules/Attitude Control.md",
-    "Development/C++ Notes.md",
-    "Modules/Rate Control.md",
-    "Modules/UORB.md"
+    "Modules/Commander.md"
   ]
 }

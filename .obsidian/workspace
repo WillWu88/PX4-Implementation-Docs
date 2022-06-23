@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Controller Hardware.md",
+                "file": "System Identification.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Controller Hardware.md",
+                    "file": "System Identification.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Controller Hardware.md",
+                "file": "System Identification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,6 +204,8 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "System Identification.md",
+    "Development/Grep.md",
     "Controller Hardware.md",
     "PX4 Autopilot.md",
     "Support Software.md",
@@ -211,8 +213,6 @@
     "Flight Mode.md",
     "Development/Controller Module Development.md",
     "Messages/autotune_attitude_control_status.md",
-    "Drivers/drv_hrt.h.md",
-    "Modules/Esimator.md",
-    "Modules/Commander.md"
+    "Drivers/drv_hrt.h.md"
   ]
 }

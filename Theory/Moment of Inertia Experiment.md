@@ -47,7 +47,7 @@ Calculation:
 
 **Experimental Data: Yaw**
 - $l$ = $0.18 \;m$
-- $d = 0.172\;m$
+- $d = 0.072\;m$
 - Timing
 | Time | # of Oscillations | Period |
 | - | - | - |
@@ -64,6 +64,7 @@ $$I = \frac{md^2T^2g}{16\pi^2l} = \frac{0.0683kg\cdot (0.07m)^2\cdot(1.0775s)^2\
 
 #### A. Rolling
 - $l = 0.33 \;m$
+- $d =$
 - Timing
 | Time | # of Oscillations | Period |
 | - | - | - |
@@ -75,6 +76,7 @@ $$I = \frac{md^2T^2g}{16\pi^2l} = \frac{0.0683kg\cdot (0.07m)^2\cdot(1.0775s)^2\
 
 #### B. Pitching
 - $l = 0.31\;m$
+- $d=$
 - Timing
 | Time | # of Oscillations | Period |
 | - | - | - |
@@ -95,12 +97,13 @@ $$I = \frac{md^2T^2g}{16\pi^2l} = \frac{0.0683kg\cdot (0.07m)^2\cdot(1.0775s)^2\
 | $9.41 \; s$ | 10 | $0.941 \;s$|
 | $9.17 \;s$ | 10 | $0.917 \;s$ |
 	- Average period: $1.14175\;s$
-
+- Yawing moment calculation:
+$$I = \frac{mgd^2T^2}{16\pi^2l} = \frac{0.705kg\;\cdot\;9.8m/s^2\;\cdot\;(0.15m)^2\;\cdot\;(1.14175s)^2}{16\pi^2\;\cdot\;0.17m} = 7.55\cdot10^{-3}\;kgm^2$$
 
 ## Appendix: References
 - [NASA X56 Moment of Inertia Experiment](https://www.youtube.com/watch?v=7xQJ2sVQrUA)
 - [Physical Pendulum Torque](https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.05%3A_Pendulums)
-- 
+- [Bifilar torsion pendulum]
 
 
 #theory 

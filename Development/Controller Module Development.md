@@ -101,10 +101,12 @@ Public:
 - `task_spawn`
 - `print_usage`
 - `init`
-git
+
 Private:
 - `Run`
 - `parameters_updated`
+- `throttle_curve` : adjust input throttle
+- 
 
 This module class will serve as a combination between [[Attitude Control]] and [[Rate Control]]. See their respective pages for [[uORB]] messaging implementation.
 
@@ -157,8 +159,10 @@ per Prof. Shidal's advice, a good way to learn about the system is to step throu
 See [[GDB]] for notes on using the debugger.
 
 ### Simulation
+See [[System Identification]] for physics parameters
 - Lockstep: actuator signals now come with timesteps, making it possible to pause
 - we can also control the speed of simulation with `PX4_SIM_SPEED_FACTOR`
+- 
 
 ## Appendix: References
 - [[MPC-PX4 Implementation.pdf]]

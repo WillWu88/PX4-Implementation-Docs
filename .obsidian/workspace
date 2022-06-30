@@ -10,11 +10,11 @@
           {
             "id": "024c92bcb09774cb",
             "type": "leaf",
-            "dimension": 55.99464166108506,
+            "dimension": 58.40589417280643,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Moment of Inertia Experiment.md",
+                "file": "Theory/Quaternion.md",
                 "mode": "source",
                 "source": false
               }
@@ -24,7 +24,7 @@
           {
             "id": "2800f328f3a1b964",
             "type": "split",
-            "dimension": 44.00535833891494,
+            "dimension": 41.59410582719357,
             "children": [
               {
                 "id": "e1819faa550652e9",
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Theory/Moment of Inertia Experiment.md",
+                    "file": "Theory/Quaternion.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -106,7 +106,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 164,
-                      "scale": 0.8460797005579412,
+                      "scale": 0.707355339248953,
                       "close": true
                     }
                   }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory/Moment of Inertia Experiment.md",
+                "file": "Theory/Quaternion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "Theory/Quaternion.md",
     "Theory/Moment of Inertia Experiment.md",
-    "Theory/Quadcopter Model.md",
-    "System Identification.md",
-    "Development/Grep.md",
-    "Controller Hardware.md",
-    "PX4 Autopilot.md",
-    "Support Software.md",
-    "ModuleBase.md",
-    "Flight Mode.md",
-    "Development/Controller Module Development.md"
+    "Theory/System Identification.md",
+    "Development/Controller Module Development.md",
+    "Modules/Attitude Control.md",
+    "Documents/ICRA18_Foehn.pdf",
+    "Documents/MPC-PX4 Implementation.pdf",
+    "Documents/att-ctrl-quat.pdf",
+    "Modules/LQR Controller.md",
+    "Development/C++ Notes.md"
   ]
 }

@@ -33,5 +33,10 @@ Angular Rate Controller Diagram:
 - Extra
 	- [[parameter_update]]
 
+#### MulticopterRateControl Class
+- `Run` function
+	1. Check if program should exit
+	2. Check if parameter has updated
+		1. check for new setpoint
 
 #flight_stack 

@@ -95,7 +95,7 @@ make <build_target> boardconfig
 
 
 ## 3. LQR Module Class
-### A. [[ModuleBase]] Functionalities
+### A. [[ModuleBase]] functions and design
 Public: 
 - `custom_command`
 - `task_spawn`
@@ -104,9 +104,18 @@ Public:
 
 Private:
 - `Run`
+	1. Check if program should exit
+	2. Check if parameters have changed
+	3. If either attitude or angular velocity is updated:
+		- [x] Handle updated readings
+		- [ ] check if any relevant topics are updated
+		- [ ] handle manual points (optional)
+		- [ ] flight modes?
+		- [ ] run the controller
+	5. publish control signals
 - `parameters_updated`
+	- set LQR gain matrix
 - `throttle_curve` : adjust input throttle
-- 
 
 This module class will serve as a combination between [[Attitude Control]] and [[Rate Control]]. See their respective pages for [[uORB]] messaging implementation.
 
@@ -157,6 +166,9 @@ This module class will serve as a combination between [[Attitude Control]] and [
 per Prof. Shidal's advice, a good way to learn about the system is to step through the debugger and examine the relationship between each module.
 
 See [[GDB]] for notes on using the debugger.
+``` shell
+make px4_sitl gazebo_iris_gdb # debug in gdb
+```
 
 ### Simulation
 See [[System Identification]] for physics parameters

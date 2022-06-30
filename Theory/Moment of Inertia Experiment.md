@@ -98,10 +98,10 @@ $$I = \frac{md^2T^2g}{16\pi^2l} = \frac{0.0683kg\cdot (0.07m)^2\cdot(1.0775s)^2\
 - Timing (needs fixing)
 | Time | # of Oscillations | Period |
 | - | - | - |
-| $9.49 \;s$ | 10 | $0.949 \;s$ |
-| $9.56 \;s$ | 10 |$0.956 \; s$|
-| $9.41 \; s$ | 10 | $0.941 \;s$|
-| $9.17 \;s$ | 10 | $0.917 \;s$ |
+| $12.76 \;s$ | 10 | $1.276 \;s$ |
+| $12.18 \;s$ | 10 |$1.218 \; s$|
+| $12.43 \; s$ | 10 | $1.243 \;s$|
+| $12.28 \;s$ | 10 | $1.228 \;s$ |
 	- Average period: $1.241\;s$
 - Yawing moment calculation:
 $$I = \frac{mgd^2T^2}{16\pi^2l} = \frac{0.705kg\;\cdot\;9.8m/s^2\;\cdot\;(0.148m)^2\;\cdot\;(1.241s)^2}{16\pi^2\;\cdot\;0.28m} = 5.279\cdot10^{-3}\;kgm^2$$

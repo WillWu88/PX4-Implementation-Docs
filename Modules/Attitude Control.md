@@ -84,7 +84,12 @@ Technical Report Diagram:
 		- `Run` (override)
 			1. Check if program should exit
 			2. Check if parameter has updated
-			3. 
+				1. check for new setpoint
+				2. check for heading reset
+				3. check for updates in landing status, etc
+				4. determine whether to run attitude control or not (contains vtol case)
+				5. run the controller once
+				6. publish rate setpoints
 		- `parameters_updated`
 		- `throttle_curve`
 		- `generate_attitude_setpoint`

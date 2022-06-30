@@ -48,6 +48,6 @@ $$u = q^{-1} * u * q$$
 
 - **Quaternion has a double cover**
 - Quaternion can be converted into DCM form
-	- [Ref](!https://www.mathworks.com/help/aerotbx/ug/quatrotate.html)
+	- [Ref](https://www.mathworks.com/help/aerotbx/ug/quatrotate.html)
 
 #theory 

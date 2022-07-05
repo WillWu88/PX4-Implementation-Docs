@@ -1,7 +1,0 @@
-*.class
-out
-/bin
-/.settings
-/.classpath
-/.project
-*.iws

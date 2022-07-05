@@ -108,10 +108,10 @@ Private:
 	2. Check if parameters have changed
 	3. If either attitude or angular velocity is updated:
 		- [x] Handle updated readings
-		- [ ] check if any relevant topics are updated
+		- [x] check if any relevant topics are updated
 		- [ ] handle manual points (optional)
 		- [ ] flight modes?
-		- [ ] run the controller
+		- [x] run the controller
 	5. publish control signals
 - `parameters_updated`
 	- set LQR gain matrix
@@ -169,6 +169,22 @@ See [[GDB]] for notes on using the debugger.
 ``` shell
 make px4_sitl gazebo_iris_gdb # debug in gdb
 ```
+
+- Testing checklist
+- [ ] Compilation Erros
+- [x] Data flow: logging control, setpoint and state signals
+- [ ] System data flow: where to, where from 
+- [ ] Control signal correctness: am I publishing the right signals
+
+### Function Tests
+- Refer to [[Testing]] for function tests
+
+### Logging, Messaging and Data Processing
+- Refer to [[Logging]] for logging signals
+
+### Data Flow
+![[control_data_flow.jpg]]
+
 
 ### Simulation
 See [[System Identification]] for physics parameters

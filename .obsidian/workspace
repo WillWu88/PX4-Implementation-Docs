@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Quaternion.md",
+                "file": "Development/Controller Module Development.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Theory/Quaternion.md",
+                    "file": "Development/Controller Module Development.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -106,7 +106,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 164,
-                      "scale": 0.707355339248953,
+                      "scale": 0.6872757426070765,
                       "close": true
                     }
                   }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory/Quaternion.md",
+                "file": "Development/Controller Module Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "Development/Controller Module Development.md",
+    "Graphs/control_data_flow.jpg",
+    "Development/Logging.md",
+    "NuttX OS.md",
+    "Modules/UORB.md",
     "Theory/Quaternion.md",
     "Theory/Moment of Inertia Experiment.md",
     "Theory/System Identification.md",
-    "Development/Controller Module Development.md",
     "Modules/Attitude Control.md",
-    "Documents/ICRA18_Foehn.pdf",
-    "Documents/MPC-PX4 Implementation.pdf",
-    "Documents/att-ctrl-quat.pdf",
-    "Modules/LQR Controller.md",
-    "Development/C++ Notes.md"
+    "Documents/ICRA18_Foehn.pdf"
   ]
 }

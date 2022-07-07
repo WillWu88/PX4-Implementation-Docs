@@ -10,7 +10,10 @@ But one won’t necessarily b# Flight Controller Software
 - Sampling rate: **1K Hz**
 - Publishing rate: **250 Hz**
 
+
 ## 1. Flight Stack
+- For detailed overview of the system, see [this video](https://www.youtube.com/watch?v=orvng_11ngQ) by the PX4 team
+
 The flight stack's main function is to control the aircraft and estimate the states. The components include
 - [[Esimator]]
 - [[Commander]]
@@ -47,6 +50,7 @@ Overall Controller Architecture
 
 See [[LQR Controller]] for notes on design, [[Controller Module Development]] for implementation and development
 
-
+## Appendix: References
+-  
 
 #main

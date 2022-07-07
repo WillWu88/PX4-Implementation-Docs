@@ -171,9 +171,9 @@ make px4_sitl gazebo_iris_gdb # debug in gdb
 ```
 
 - Testing checklist
-- [ ] Compilation Erros
+- [x] Compilation Erros
 - [x] Data flow: logging control, setpoint and state signals
-- [ ] System data flow: where to, where from 
+- [x] System data flow: where to, where from 
 - [ ] Control signal correctness: am I publishing the right signals
 
 ### Function Tests
@@ -183,14 +183,16 @@ make px4_sitl gazebo_iris_gdb # debug in gdb
 - Refer to [[Logging]] for logging signals
 
 ### Data Flow
-![[control_data_flow.jpg]]
+![[control_data_flow_old.jpg]]
 
-
+	
 ### Simulation
 See [[System Identification]] for physics parameters
 - Lockstep: actuator signals now come with timesteps, making it possible to pause
 - we can also control the speed of simulation with `PX4_SIM_SPEED_FACTOR`
-- 
+
+- [ ] make our own simulation quad
+
 
 ## Appendix: References
 - [[MPC-PX4 Implementation.pdf]]

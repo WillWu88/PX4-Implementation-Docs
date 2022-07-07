@@ -12,11 +12,9 @@
             "type": "leaf",
             "dimension": 58.40589417280643,
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Development/Controller Module Development.md",
-                "mode": "source",
-                "source": false
+                "file": "Documents/ICRA18_Foehn.pdf"
               }
             },
             "group": "153686e737774e9c"
@@ -33,7 +31,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Development/Controller Module Development.md",
+                    "file": "Documents/ICRA18_Foehn.pdf",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -155,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hrt",
+                "query": "mixer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Controller Module Development.md",
+                "file": "Documents/ICRA18_Foehn.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +202,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "Documents/ICRA18_Foehn.pdf",
+    "Theory/Quadcopter Model.md",
+    "NuttX OS.md",
+    "PX4 Autopilot.md",
+    "Controller Hardware.md",
+    "Modules/Mixer.md",
     "Development/Controller Module Development.md",
     "Graphs/control_data_flow.jpg",
     "Development/Logging.md",
-    "NuttX OS.md",
-    "Modules/UORB.md",
-    "Theory/Quaternion.md",
-    "Theory/Moment of Inertia Experiment.md",
-    "Theory/System Identification.md",
-    "Modules/Attitude Control.md",
-    "Documents/ICRA18_Foehn.pdf"
+    "Modules/UORB.md"
   ]
 }

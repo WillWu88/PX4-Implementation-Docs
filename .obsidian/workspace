@@ -12,9 +12,11 @@
             "type": "leaf",
             "dimension": 58.40589417280643,
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Documents/ICRA18_Foehn.pdf"
+                "file": "Companion Computer Offboard Control.md",
+                "mode": "source",
+                "source": false
               }
             },
             "group": "153686e737774e9c"
@@ -31,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Documents/ICRA18_Foehn.pdf",
+                    "file": "Companion Computer Offboard Control.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -182,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documents/ICRA18_Foehn.pdf",
+                "file": "Companion Computer Offboard Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,17 +202,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "024c92bcb09774cb",
+  "active": "e1819faa550652e9",
   "lastOpenFiles": [
+    "Companion Computer Offboard Control.md",
+    "Modules/Fast DDS.md",
+    "NuttX OS.md",
+    "Flight Mode.md",
+    "Development/ROS.md",
+    "Controller Hardware.md",
+    "Development/Controller Module Development.md",
     "Documents/ICRA18_Foehn.pdf",
     "Theory/Quadcopter Model.md",
-    "NuttX OS.md",
-    "PX4 Autopilot.md",
-    "Controller Hardware.md",
-    "Modules/Mixer.md",
-    "Development/Controller Module Development.md",
-    "Graphs/control_data_flow.jpg",
-    "Development/Logging.md",
-    "Modules/UORB.md"
+    "PX4 Autopilot.md"
   ]
 }

@@ -185,13 +185,21 @@ make px4_sitl gazebo_iris_gdb # debug in gdb
 ### Data Flow
 ![[control_data_flow_old.jpg]]
 
-	
+
+### App Start
+- Disable rate and att control and enable `mc_lqr_control` in `make px4_sitl boardconfig`
+- Disable rate and att control and enable `mc_lqr_control_main` in `platforms/posix/apps.cpp`
+- Disable rate and att control and enable `mc_lqr_control` in `rc.mc_apps`
+
 ### Simulation
 See [[System Identification]] for physics parameters
 - Lockstep: actuator signals now come with timesteps, making it possible to pause
 - we can also control the speed of simulation with `PX4_SIM_SPEED_FACTOR`
 
 - [ ] make our own simulation quad
+
+## 5. Offboard Control
+[[Companion Computer Offboard Control]] investigation
 
 
 ## Appendix: References

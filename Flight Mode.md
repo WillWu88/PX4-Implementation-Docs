@@ -6,5 +6,8 @@ Affects
 [[Rate Control]]
 [[Controller Module Development]]
 
+## Offboard Mode
+- For controlling vehicle movement and attitude
+- 
 
 #development #mid  

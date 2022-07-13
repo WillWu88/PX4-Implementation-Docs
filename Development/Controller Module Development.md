@@ -185,7 +185,6 @@ make px4_sitl gazebo_iris_gdb # debug in gdb
 ### Data Flow
 ![[control_data_flow_old.jpg]]
 
-
 ### App Start
 - Disable rate and att control and enable `mc_lqr_control` in `make px4_sitl boardconfig`
 - Disable rate and att control and enable `mc_lqr_control_main` in `platforms/posix/apps.cpp`

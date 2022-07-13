@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 11621088
       }
+    },
+    {
+      "query": "hardware",
+      "color": {
+        "a": 1,
+        "rgb": 1719910
+      }
     }
   ],
   "collapse-display": true,
@@ -70,10 +77,10 @@
   "nodeSizeMultiplier": 1.0497191011236,
   "lineSizeMultiplier": 1.15983146067416,
   "collapse-forces": false,
-  "centerStrength": 0.44644764957265,
-  "repelStrength": 13.2024572649573,
+  "centerStrength": 0.602678571428571,
+  "repelStrength": 15.0297619047619,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.28071318946254825,
+  "scale": 0.28071318946254764,
   "close": true
 }

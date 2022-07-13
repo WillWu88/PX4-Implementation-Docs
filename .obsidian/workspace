@@ -202,17 +202,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e1819faa550652e9",
+  "active": "024c92bcb09774cb",
   "lastOpenFiles": [
     "Companion Computer Offboard Control.md",
+    "Modules/LQR Controller.md",
+    "Development/Controller Module Development.md",
+    "Development/ROS.md",
+    "Raspberry Pi.md",
+    "Controller Hardware.md",
     "Modules/Fast DDS.md",
     "NuttX OS.md",
     "Flight Mode.md",
-    "Development/ROS.md",
-    "Controller Hardware.md",
-    "Development/Controller Module Development.md",
-    "Documents/ICRA18_Foehn.pdf",
-    "Theory/Quadcopter Model.md",
-    "PX4 Autopilot.md"
+    "Documents/ICRA18_Foehn.pdf"
   ]
 }

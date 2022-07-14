@@ -25,6 +25,34 @@ The companion computer will likely be a raspberry pi, running [[ROS]]
 ```
 - didn't enable virtual thumbsticks in PX4, so offboard control can't takeoff
 - Position follows north-east-down
+- Flight mode enum:
+	- `src/modules/commander/px4_custom_mode.h`
+	- linked to `VEHICLE_CMD_DO_SET_MODE`
+
+### Important Member functions
+1. `publish_offboard_control_mode` : publish offboard control flags for [[offboard_control_mode]]
+2. `publish_trajectory_setpoint` : publish position setpoints
+3. `publish_vehicle_command` : tap into commander, set vehicle to offboard mode for [[vehicle_command]]
+
+## 3. PX4 Offboard Controller Design
+
+Previous examples have all centered around using LQR with the onboard rate controller. But underlying infrastructure supports outputting actuator signals. We will start with designing a LQR with rates as output, then moving onto a full state.
+
+### I. Messaging:
+#### Publication:
+- [[offboard_control_mode]]: set `actuator` to true, therefore disabling rate controller
+- [[vehicle_control_mode]]: set `flag_control_offboard_enabled` to true, enabling offboard control mode
+- [[vehicle_rates_setpoint]]: set rate setpoints (when we want to run the onboard rate controller)
+- [[actuator_controls]]: control group: 0
+	- remember to set landing gear
+- [[vehicle_command]]: set vehicle to offboard mode. See above section for enum set up
+
+#### Subscription
+- time_sync
+- position data
+- velocity data
+- attitude data
+- rate data
 
 
 ## Appendix: Reference

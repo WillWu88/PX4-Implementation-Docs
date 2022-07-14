@@ -197,8 +197,17 @@ See [[System Identification]] for physics parameters
 
 - [ ] make our own simulation quad
 
-## 5. Offboard Control
-[[Companion Computer Offboard Control]] investigation
+## 5. Pivoting to Offboard Control
+- The above approach prove to be extremely difficult and digging in the code base. That's why we're going to use the below approach
+
+## 6. Offboard Control
+- [[Companion Computer Offboard Control]] investigation
+- see [[Flight Mode]] for information
+- We designed a new flight mode similar to offboard mode, but disables the rate control and send in our own control signals. See [[Flight Mode]] for notes on flight mode design
+	- as it turned out `offboard_mode` already have necessary setup for this
+- See [[Companion Computer Offboard Control]] for [[ROS]] module design
+
+
 
 
 ## Appendix: References

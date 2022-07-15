@@ -49,6 +49,9 @@ Matrix is implemented as an array (?), so the size must be known and static at c
 condition ? result_if_true : result_if_false
 ```
 
+### Make shared pointer `std::make_shared`
+- returns an object to type `shared_ptr<T>` that stores a pointer to `T`
+	- useful for 1 object with multiple ownership
 
 ## References:
 - [Libraries](https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/)

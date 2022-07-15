@@ -4,7 +4,7 @@ Building a new firmware module is hard. Many programming challenges exist. A new
 
 An advantage of that is the implementation is theoretically simpler than my current approach. It will also be easier to debug. A disadvantage is that the new system require a lot of set up and debugging, and time is of essense. 
 
-The companion computer will likely be a raspberry pi, running [[ROS]]
+The companion computer will likely be a raspberry pi, running [[ROS]]. See [[C++ Notes]] and [[Python Notes]] for programming notes. 
 
 ## 1. Messaging and Communication with [[PX4 Autopilot]]
 - The vehicle will run in off-board mode. See [[Flight Mode]] for notes
@@ -36,7 +36,7 @@ The companion computer will likely be a raspberry pi, running [[ROS]]
 
 ## 3. PX4 Offboard Controller Design
 
-Previous examples have all centered around using LQR with the onboard rate controller. But underlying infrastructure supports outputting actuator signals. We will start with designing a LQR with rates as output, then moving onto a full state.
+Previous examples have all centered around using LQR with the onboard rate controller. But underlying infrastructure supports outputting actuator signals. We will start with designing a LQR with torque as output, then falling back to rates if actuator signals are not fast enough.
 
 ### I. Messaging:
 #### Publication:
@@ -53,6 +53,15 @@ Previous examples have all centered around using LQR with the onboard rate contr
 - velocity data
 - attitude data
 - rate data
+
+### II. Library, Packages, API
+- Created as a ROS Node
+	- see [[ROS]] for notes on nodes and development notes
+- Modified `CMakeLists.txt` based on adding `frame_transform` library
+
+### III. LQR Control Library
+
+
 
 
 ## Appendix: Reference

@@ -205,7 +205,7 @@ See [[System Identification]] for physics parameters
 - see [[Flight Mode]] for information
 - We designed a new flight mode similar to offboard mode, but disables the rate control and send in our own control signals. See [[Flight Mode]] for notes on flight mode design
 	- as it turned out `offboard_mode` already have necessary setup for this
-- See [[Companion Computer Offboard Control]] for [[ROS]] module design
+- See [[Companion Computer Offboard Control]] for [[ROS]] NODE design
 
 
 

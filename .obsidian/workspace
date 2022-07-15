@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companion Computer Offboard Control.md",
+                "file": "Theory/Quaternion.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Companion Computer Offboard Control.md",
+                    "file": "Theory/Quaternion.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companion Computer Offboard Control.md",
+                "file": "Theory/Quaternion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "Theory/Quaternion.md",
+    "Modules/LQR Controller.md",
+    "Documents/att-ctrl-quat.pdf",
     "Companion Computer Offboard Control.md",
+    "Development/C++ Notes.md",
+    "Development/Python Notes.md",
+    "Development/Controller Module Development.md",
     "vehicle_command.md",
     "Messages/actuator_controls.md",
-    "Messages/vehicle_control_mode.md",
-    "Messages/offboard_control_mode.md",
-    "Development/Controller Module Development.md",
-    "Flight Mode.md",
-    "Modules/LQR Controller.md",
-    "Development/ROS.md",
-    "Raspberry Pi.md"
+    "Messages/vehicle_control_mode.md"
   ]
 }

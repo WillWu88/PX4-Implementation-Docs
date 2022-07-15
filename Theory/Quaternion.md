@@ -50,4 +50,11 @@ $$u = q^{-1} * u * q$$
 - Quaternion can be converted into DCM form
 	- [Ref](https://www.mathworks.com/help/aerotbx/ug/quatrotate.html)
 
+### Quaternion Error:
+
+$$q_e = q^{-1} * q_{cmd}$$
+
+
+### Appendix: References:
+- [[att-ctrl-quat.pdf]] for quaternion error formulation
 #theory 

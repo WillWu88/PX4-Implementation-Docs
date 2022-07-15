@@ -6,6 +6,8 @@ Penalty terms are chosen as identities for now. Gains are calculated through MAT
 
 Refer to [[System Theory]] for further notes on LQR.
 
+See [[Quaternion]] for quaternion error formulation
+
 ## 2. Simulation
 #### A. Simulink Simulation
 - Simulink diagram partially based on PX4 Support Package

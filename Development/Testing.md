@@ -17,7 +17,16 @@ EXPECT_EQ(1,2) << "Non Fatal"// non-fatal, continues
 	- Error message can be slipped in the above form
 	- clean-up is needed for ```ASSERT_```
 
+### B. Function Tests
+
+## 2. Integrating Testing into [[ROS]]
+### A. Procedure:
+- Link test in package `CMakeLists.txt`
+- run `colcon build` then run test executable in src folder
+
 ## Appendix: References
 - [Official PX4 Doc](https://docs.px4.io/v1.12/en/test_and_ci/unit_tests.html)
+- [GTest](https://google.github.io/googletest/primer.html)
+
 
 #development 

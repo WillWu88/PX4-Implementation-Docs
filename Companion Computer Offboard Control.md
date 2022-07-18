@@ -56,10 +56,13 @@ Previous examples have all centered around using LQR with the onboard rate contr
 
 ### II. Library, Packages, API
 - Created as a ROS Node
+	- Explicit? See [[C++ Notes]]
 	- see [[ROS]] for notes on nodes and development notes
 - Modified `CMakeLists.txt` based on adding `frame_transform` library
 
 ### III. LQR Control Library
+- **Requires [[Eigen]] 3.4**
+- See [[Testing]] for incoporating gtest in ROS
 
 
 

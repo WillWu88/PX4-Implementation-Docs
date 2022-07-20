@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companion Computer Offboard Control.md",
+                "file": "Development/Controller Module Development.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Companion Computer Offboard Control.md",
+                    "file": "Development/Controller Module Development.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -106,7 +106,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.9832824654259185,
+                      "scale": 1.1761208090897513,
                       "close": true
                     }
                   }
@@ -155,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mixer",
+                "query": "gazebo",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companion Computer Offboard Control.md",
+                "file": "Development/Controller Module Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +205,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
+    "Theory/Quadcopter Model.md",
+    "Modules/Mixer.md",
     "Companion Computer Offboard Control.md",
+    "Development/C++ Notes.md",
     "Development/Testing.md",
     "Theory/Quaternion.md",
     "Modules/LQR Controller.md",
     "Documents/att-ctrl-quat.pdf",
-    "Development/C++ Notes.md",
     "Development/Python Notes.md",
-    "Development/Controller Module Development.md",
-    "vehicle_command.md",
-    "Messages/actuator_controls.md"
+    "Development/Controller Module Development.md"
   ]
 }

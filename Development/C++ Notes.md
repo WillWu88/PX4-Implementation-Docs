@@ -53,6 +53,10 @@ condition ? result_if_true : result_if_false
 - returns an object to type `shared_ptr<T>` that stores a pointer to `T`
 	- useful for 1 object with multiple ownership
 
+### Pass-by-value vs pass-by-reference
+- value: parameter copies to another variable
+- reference: actual parameter pass to function
+
 ## References:
 - [Libraries](https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/)
 - [[Testing]] for C++ Unit Tests

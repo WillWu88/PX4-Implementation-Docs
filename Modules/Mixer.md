@@ -2,6 +2,7 @@
 
 - Saturation Requirements goes here
 - vehicle dependent
+- **SI Units**
 
 ## 1. Mixer Module
 - file path: `src/lib/mixer_module`
@@ -17,6 +18,7 @@
 ![[control_data_flow.jpg]]
 
 - [[Quadcopter Model]] aware
+- Normalized input
 
 ## Appendix: Reference
 - [Mixing System Rework](https://www.youtube.com/watch?v=xjLM9whwjO4)

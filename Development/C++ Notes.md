@@ -57,6 +57,9 @@ condition ? result_if_true : result_if_false
 - member functions that aren't allowed to modify objects
 - can be called on both `const` and `non-const` member objects
 	- `non-const` functions can only be called on `non-const` member objects
+### Pass-by-value vs pass-by-reference
+- value: parameter copies to another variable
+- reference: actual parameter pass to function
 
 ## References:
 - [Libraries](https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/)

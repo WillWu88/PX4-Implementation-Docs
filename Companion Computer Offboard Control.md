@@ -63,6 +63,11 @@ Previous examples have all centered around using LQR with the onboard rate contr
 ### III. LQR Control Library
 - **Requires [[Eigen]] 3.4**
 - See [[Testing]] for incoporating gtest in ROS
+- Refer to github change log and `CMakeLists.txt` for adding the lqr library
+
+### IV. Control Signal Conditioning
+- Refer to [[Mixer]] for calculation procedure
+- 
 
 
 

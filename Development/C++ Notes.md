@@ -53,6 +53,11 @@ condition ? result_if_true : result_if_false
 - returns an object to type `shared_ptr<T>` that stores a pointer to `T`
 	- useful for 1 object with multiple ownership
 
+### `const` member functions
+- member functions that aren't allowed to modify objects
+- can be called on both `const` and `non-const` member objects
+	- `non-const` functions can only be called on `non-const` member objects
+
 ## References:
 - [Libraries](https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/)
 - [[Testing]] for C++ Unit Tests

@@ -12,9 +12,9 @@
             "type": "leaf",
             "dimension": 58.40589417280643,
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Development/Controller Module Development.md",
+                "file": "Companion Computer Offboard Control.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,11 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-<<<<<<< HEAD
-                    "file": "Documents/ICRA18_Foehn.pdf",
-=======
-                    "file": "Development/Controller Module Development.md",
->>>>>>> f11bf2094049616ef7ba53d467f47f5f42af1460
+                    "file": "Companion Computer Offboard Control.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -105,16 +101,12 @@
                       "textFadeMultiplier": 0,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 1,
-                      "collapse-forces": false,
+                      "collapse-forces": true,
                       "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
+                      "repelStrength": 17.265625,
                       "linkStrength": 1,
                       "linkDistance": 30,
-<<<<<<< HEAD
-                      "scale": 0.7013512554152075,
-=======
-                      "scale": 1.1761208090897513,
->>>>>>> f11bf2094049616ef7ba53d467f47f5f42af1460
+                      "scale": 0.7013512554152082,
                       "close": true
                     }
                   }
@@ -163,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gazebo",
+                "query": "mixer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,8 +164,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,11 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Documents/ICRA18_Foehn.pdf",
-=======
-                "file": "Development/Controller Module Development.md",
->>>>>>> f11bf2094049616ef7ba53d467f47f5f42af1460
+                "file": "Companion Computer Offboard Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,19 +204,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Development/C++ Notes.md",
-=======
-    "Theory/Quadcopter Model.md",
     "Modules/Mixer.md",
->>>>>>> f11bf2094049616ef7ba53d467f47f5f42af1460
+    "Modules/Fast DDS.md",
     "Companion Computer Offboard Control.md",
+    "Raspberry Pi.md",
+    "Documents/ICRA18_Foehn.pdf",
     "Development/C++ Notes.md",
     "Development/Testing.md",
     "Theory/Quaternion.md",
     "Modules/LQR Controller.md",
-    "Documents/att-ctrl-quat.pdf",
-    "Development/Python Notes.md",
-    "Development/Controller Module Development.md"
+    "Documents/att-ctrl-quat.pdf"
   ]
 }

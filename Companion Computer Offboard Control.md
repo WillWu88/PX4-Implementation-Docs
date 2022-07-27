@@ -69,6 +69,8 @@ Previous examples have all centered around using LQR with the onboard rate contr
 - Refer to [[Mixer]] for calculation procedure
 - 
 
+## 4. Offboard Controller Setup
+### **!!!!!! Set `COM_RCL_EXCEPT=4`**
 
 
 

@@ -12,11 +12,9 @@
             "type": "leaf",
             "dimension": 58.40589417280643,
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Companion Computer Offboard Control.md",
-                "mode": "source",
-                "source": false
+                "file": "Documents/ICRA18_Foehn.pdf"
               }
             },
             "group": "153686e737774e9c"
@@ -33,7 +31,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Companion Computer Offboard Control.md",
+                    "file": "Documents/ICRA18_Foehn.pdf",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -101,12 +99,12 @@
                       "textFadeMultiplier": 0,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
+                      "collapse-forces": false,
                       "centerStrength": 0.518713248970312,
-                      "repelStrength": 17.265625,
+                      "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.7013512554152082,
+                      "scale": 0.6872757426070719,
                       "close": true
                     }
                   }
@@ -184,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companion Computer Offboard Control.md",
+                "file": "Documents/ICRA18_Foehn.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,15 +202,15 @@
   },
   "active": "024c92bcb09774cb",
   "lastOpenFiles": [
-    "Modules/Mixer.md",
-    "Modules/Fast DDS.md",
+    "Development/GDB.md",
     "Companion Computer Offboard Control.md",
-    "Raspberry Pi.md",
     "Documents/ICRA18_Foehn.pdf",
-    "Development/C++ Notes.md",
-    "Development/Testing.md",
-    "Theory/Quaternion.md",
-    "Modules/LQR Controller.md",
-    "Documents/att-ctrl-quat.pdf"
+    "Graphs/px4_ros_relationship.jpg",
+    "Messages/vehicle_rates_setpoint.md",
+    "Graphs/control_data_flow.jpg",
+    "Graphs/control_data_flow_old.jpg",
+    "Modules/Mixer.md",
+    "Development/Controller Module Development.md",
+    "Development/C++ Notes.md"
   ]
 }

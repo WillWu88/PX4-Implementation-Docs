@@ -54,6 +54,10 @@ Previous examples have all centered around using LQR with the onboard rate contr
 - attitude data
 - rate data
 
+Refer the graph below for `yaml` file setup
+
+![[px4_ros_relationship.jpg]]
+
 ### II. Library, Packages, API
 - Created as a ROS Node
 	- Explicit? See [[C++ Notes]]
